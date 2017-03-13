@@ -1,0 +1,219 @@
+.admin__panel {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/******************************************** LEFT SIDEBAR ***************************************/
+.left__sidebar {
+  max-width: 25%;
+  min-height: 1500px;
+  background-color: #293a42;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+  overflow: hidden;
+}
+.profile__info {
+  max-width: 100%;
+  min-height: 135px;
+  padding: 20px 20px 20px 0px;
+  background-color: #202930;
+  padding-left: 15px;
+}
+.profile__info__image {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  background-image: url(../img/photo_admin.png);
+  float: left;
+  margin-right: 20px;
+}
+.profile__info h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+.profile__info h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #19b0b9;
+  padding-top: 5px;
+}
+.left__sidebar__link {
+  margin-top: 30px;
+}
+.left__sidebar__link li {
+  padding-top: 10px;
+  padding-left: 10px;
+  border-left: 4px solid #293a42;
+  border-bottom: 1px solid #637b85;
+}
+.left__sidebar__link a {
+  padding: 12px 5px 12px 15px;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.left__sidebar__link li:hover {
+  background-color: #212f32;
+  border-left: 4px solid #17b5be;
+}
+.left__sidebar__link a:hover {
+  text-decoration: none;
+}
+.left__sidebar__link .glyphicon {
+  padding-right: 5px;
+}
+.navbar-header .navbar-toggle span {
+  color: #fff;
+  font-size: 18px;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar-default {
+  border: none;
+  background-color: transparent;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent;
+}
+/******************************************** INFO ***************************************/
+.info__admin__panel {
+  max-width: 100%;
+  min-height: 1500px;
+  padding: 0px;
+  display: block;
+  float: right;
+  background-image: url(../img/comment2.png);
+}
+.header__info {
+  max-width: 100%;
+  min-height: 200px;
+  background-image: url(../img/portfolio/mountains.jpg);
+  background-size: cover;
+}
+.header__info h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}
+.header__info h3 span {
+  text-transform: uppercase;
+}
+.header__info h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+.total__comments {
+  max-width: 50%;
+  height: 100px;
+  margin-top: 40px;
+}
+.total__comments .comment__image {
+  max-width: 25%;
+  height: 100px;
+  background-color: #e7373a;
+}
+.total__comments .comment__title {
+  max-width: 75%;
+  height: 100px;
+  background-color: #637b85;
+}
+.total__comments .comment__image .glyphicon {
+  font-size: 95px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.total__comments .comment__title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #0c1b2b;
+  text-transform: uppercase;
+  text-align: center;
+}
+.total__comments .comment__title p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: #4ad7de;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.total__views {
+  max-width: 50%;
+  height: 100px;
+  margin-top: 40px;
+}
+.total__views .views__image {
+  max-width: 25%;
+  height: 100px;
+  background-color: #ffc627;
+}
+.total__views .views__title {
+  max-width: 75%;
+  height: 100px;
+  background-color: #637b85;
+}
+.total__views .views__image .glyphicon {
+  font-size: 95px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.total__views .views__title h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #0c1b2b;
+  text-transform: uppercase;
+  text-align: center;
+}
+.total__views .views__title p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: #4ad7de;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.table__comments {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+.table__comments p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #42546c;
+  padding-bottom: 10px;
+}
+.table__comments .table {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.table__comments .table .bold {
+  font-weight: 700;
+  font-size: 18px;
+}
